@@ -1,0 +1,112 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(240, 214, 66), orange);
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+h1,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* input and add button */
+#input,
+#button {
+    padding: .5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+#input ,#button:focus {
+    outline: none;
+
+}
+
+#button {
+    color: gold;
+    background-color: white;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#button:hover {
+    color: white;
+    background-color: gold;
+}
+
+
+/* to do container */
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    /*   min-width: 30%; */
+    list-style: none;
+    background-color: white;
+    padding: 5px 6px;
+    border-radius: 3px;
+    font-size: larger;
+    font-family: 'Akaya Kanadaka', cursive;
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+    position: relative;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 30%;
+}
+
+
+/* delete button */
+button {
+position: relative;
+font-size: 1rem;
+
+cursor: pointer;
+transition: .3s;
+border: none;
+border-radius: 3px;
+margin: 0;
+}
+
+button:hover {
+    color: red;
+    
+}
+
+/* time css */
+span {
+display: flex;
+flex-direction: column;
+}
+li b {
+position: absolute;
+right: 50px;
+font-family: sans-serif;
+color: blueviolet;
+padding: 5px 0px;
+font-size: initial;
+}
