@@ -66,47 +66,28 @@ li {
     border-radius: 3px;
     font-size: larger;
     font-family: 'Akaya Kanadaka', cursive;
-    display: flex;
-    justify-content: space-between;
+    
     margin: 6px;
     position: relative;
-}
-
-.list {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    min-width: 30%;
-}
-
-
-/* delete button */
-button {
-position: relative;
-font-size: 1rem;
-
-cursor: pointer;
-transition: .3s;
-border: none;
-border-radius: 3px;
-margin: 0;
-}
-
-button:hover {
-    color: red;
     
 }
 
-/* time css */
-span {
-display: flex;
-flex-direction: column;
+li .fas fa-pen {
+    float: right;
 }
-li b {
-position: absolute;
-right: 50px;
-font-family: sans-serif;
-color: blueviolet;
-padding: 5px 0px;
-font-size: initial;
+
+.todo-edit {
+    width: 85%;
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
 }
+
+
+
+
+
+
