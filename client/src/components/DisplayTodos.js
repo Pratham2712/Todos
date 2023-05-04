@@ -8,10 +8,10 @@ const DisplayTodos = () => {
     
     useEffect(() => {
         dispatch(getTodos());
-    },[dispatch])
+    },[])
   return (
     <div>
-      <h1>tosos</h1>
+      <h2>Tasks</h2>
       <ul>
       {info.map((data) => <Todolist data={data} key={data._id}/> )} 
       </ul>

@@ -7,7 +7,7 @@ export const postTodos = async(req,res) => {
             createdAt: Date.now()
         })
         await newtodo.save();
-        return res.status(200).json(todo)
+        return res.status(200).json(newtodo)
         
     } catch (error) {
         return res.status(500).json(error.message);

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { toggletodo,updateTodo,deleteTodo } from '../redux/actions/actions';
+import moment from 'moment';
 
 const Todolist = ({data}) => {
     const [edit,setEdit] = useState(false);
@@ -28,8 +29,9 @@ const Todolist = ({data}) => {
             onChange={(e) => setText(e.target.value)}
             />
             </form> 
-        <span onClick={deletefunc} style={{float : 'right'}}><i className="fas fa-trash"></i></span>
-        <span onClick={() => setEdit(prevState => !prevState)} style={{float : 'right'}}><i className="fas fa-pen"></i></span>
+        <span className= "icon trash "onClick={deletefunc} style={{float : 'right'}}><i className="fas fa-trash"></i></span>
+        <span className= "icon pen "onClick={() => setEdit(prevState => !prevState)} style={{float : 'right'}}><i className="fas fa-pen"></i></span>
+        <span className='time'>{moment(data.createdAt).fromNow()}</span>
     </li>
   )
 }
