@@ -19,6 +19,15 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pratham2712/Todos/issues"
-  },
-  "homepage": "https://github.com/Pratham2712/Todos#readme"
+  }
+  ,
+  "dependencies": {
+    
+    "cors": "^2.8.5",
+   
+    "express": "^4.17.2",
+    
+    "mongoose": "^6.2.1"
+  
+  }
 }
