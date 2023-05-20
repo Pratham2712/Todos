@@ -1,0 +1,24 @@
+{
+  "name": "todo_webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/index.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./server && node index.js"
+  },
+  "engines": {
+      "node": "16.x"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratham2712/Todos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pratham2712/Todos/issues"
+  },
+  "homepage": "https://github.com/Pratham2712/Todos#readme"
+}
