@@ -20,6 +20,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0rem 1rem;
 }
 h2 {
     margin-top: -3rem;
@@ -44,6 +45,7 @@ h2 {
     font-weight: bolder;
     border-radius: 4px;
     margin-top: -5rem;
+    height: 3rem;
 }
 #input ,#button:focus {
     outline: none;
@@ -88,7 +90,8 @@ li {
     margin: 6px;
     position: relative;
     cursor: pointer;
-    width: 600px;
+    min-width: 22rem;
+    padding-left: 1rem;
     
 }
 
