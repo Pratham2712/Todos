@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const Api = 'http://localhost:5000'
+const Api = 'https://todos-pg7k.onrender.com'
 export const addtodos = (text)  => async (dispatch) =>  {
     try{
 
